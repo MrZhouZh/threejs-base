@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js'
-import { on } from './utils'
+// import { on } from './utils'
 
 async function loadingModels() {
   const W = 500,
@@ -33,7 +33,7 @@ async function loadingModels() {
   controls.addEventListener('change', render )
   controls.target.set(0, 0.01, 0.1)
   controls.maxDistance = 2
-  controls.minDistance = 0.1
+  controls.minDistance = 0.4
   controls.update()
 
   const rgbeLoader = new RGBELoader().setPath('textures/equirectangular/')
