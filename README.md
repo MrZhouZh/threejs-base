@@ -20,6 +20,8 @@
 
 ## 参考资料
 
-- [three.js manual](https://threejs.org/manual/#zh/fundamentals)
+- [`three.js` manual](https://threejs.org/manual/#zh/fundamentals)
 
-- [three.js documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+- [`three.js` documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
+
+- [wjceo 博客 `three.js` 实战](https://www.wjceo.com/blog/threejs/)
