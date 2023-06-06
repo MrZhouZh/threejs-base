@@ -171,7 +171,7 @@ function createText() {
   function loadFont() {
     const loader = new FontLoader()
     loader.load(
-      `node_modules/three/examples/fonts/${fontName}_${fontWeight}.typeface.json`,
+      `/fonts/${fontName}_${fontWeight}.typeface.json`,
       function(response) {
         font = response
         refreshText()
