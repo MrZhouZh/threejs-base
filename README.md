@@ -2,6 +2,10 @@
 
 本项目用于学习 [Three.js](https://threejs.org/docs/index.html#manual/en/introduction/Installation) 基础
 
+下图是一个基础的 `three.js` 应用结构
+
+![three.js 应用结构](https://threejs.org/manual/resources/images/threejs-structure.svg)
+
 ## 查看示例
 
 [Codesandbox](https://bb4bqc-5173.csb.app/)
@@ -13,3 +17,9 @@
 - [画线](./scripts/line.js)
 
 - [创建文字](./scripts/createText.js)
+
+## 参考资料
+
+- [three.js manual](https://threejs.org/manual/#zh/fundamentals)
+
+- [three.js documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
