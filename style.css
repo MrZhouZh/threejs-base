@@ -46,6 +46,18 @@ h3 {
   right: 0;
 }
 
+.video-texture-section {
+  position: relative;
+}
+
+#videoTextureStats {
+  position: relative;
+}
+
+#videoTextureStats > div {
+  position: absolute !important;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
