@@ -10,15 +10,37 @@
     <main>
       <h3>入门-创建场景</h3>
       <div id="scene"></div>
+      
       <h3>入门-画线</h3>
       <div id="line"></div>
+      
       <h3>入门-创建文字</h3>
       <div class="text-section">
         <div id="textControls"></div>
         <div id="text"></div>
       </div>
+      
       <h3>入门-加载3D模型</h3>
       <div id="model"></div>
+
+      <h3>入门-VideoTexture实现视频Video更新纹理</h3>
+      <div class="video-texture-section">
+        <video
+          id="video"
+          muted
+          autoplay
+          loop
+          controls
+          src="/video/sintel.ogv"
+          width="500">
+          Sorry, your browser doesn't support embedded videos, but don't worry, you can
+          <a href="https://archive.org/details/BigBuckBunny_124">download it</a>
+          and watch it with your favorite video player!
+        </video>
+        <div id="videoTextureStats"></div>
+        <div id="videoTextureControls"></div>
+        <div id="videoTexture"></div>
+      </div>
     </main>
     <script type="module" src="/main.js"></script>
   </body>
