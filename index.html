@@ -9,22 +9,28 @@
   <body>
     <main>
       <h3>入门-创建场景</h3>
-      <div id="scene"></div>
+      <div class="webgl-section">
+        <div id="scene"></div>
+      </div>
       
       <h3>入门-画线</h3>
-      <div id="line"></div>
+      <div class="webgl-section">
+        <div id="line"></div>
+      </div>
       
       <h3>入门-创建文字</h3>
-      <div class="text-section">
-        <div id="textControls"></div>
+      <div class="webgl-section text-section">
+        <div class="webgl-gui" id="textControls"></div>
         <div id="text"></div>
       </div>
       
       <h3>入门-加载3D模型</h3>
-      <div id="model"></div>
+      <div class="webgl-section">
+        <div id="model"></div>
+      </div>
 
       <h3>入门-VideoTexture实现视频Video更新纹理</h3>
-      <div class="video-texture-section">
+      <div class="webgl-section video-texture-section">
         <!--
           muted 可解决视频无法自动播放问题
           refs: https://blog.csdn.net/taiyangmiaomiao/article/details/80266625
@@ -41,9 +47,16 @@
           <a href="https://archive.org/details/BigBuckBunny_124">download it</a>
           and watch it with your favorite video player!
         </video>
-        <div id="videoTextureStats"></div>
+        <div class="stats-wrapper" id="videoTextureStats"></div>
         <div id="videoTextureControls"></div>
         <div id="videoTexture"></div>
+      </div>
+
+      <h3>入门-FBX格式骨骼绑定模型</h3>
+      <div class="webgl-section fbx-model-section">
+        <div class="webgl-gui" id="fbxModelGUI"></div>
+        <div class="stats-wrapper" id="fbxModelStats"></div>
+        <div id="fbxModel"></div>
       </div>
     </main>
     <script type="module" src="/main.js"></script>
