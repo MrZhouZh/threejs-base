@@ -28,9 +28,9 @@ function videoTexture() {
       45,
       WIDTH / HEIGHT,
       0.1,
-      1000
+      2000
     )
-    camera.position.set(0, 0, 15)
+    camera.position.set(0, 0, 20)
   }
 
   function initScene() {
@@ -102,7 +102,7 @@ function videoTexture() {
     controls.autoRotate = false
     controls.autoRotateSpeed = 0.5
     // 相机距离原点的最远/近距离
-    controls.minDistance = 12
+    controls.minDistance = 14
     controls.maxDistance = 30
     // 是否开启右键拖拽
   }
