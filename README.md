@@ -25,3 +25,5 @@
 - [`three.js` documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
 
 - [wjceo 博客 `three.js` 实战](https://www.wjceo.com/blog/threejs/)
+
+- [GUI 文档](https://lil-gui.georgealways.com/)
