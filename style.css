@@ -36,25 +36,21 @@ h3 {
   text-align: left;
 }
 
-.text-section {
+.webgl-section {
   position: relative;
 }
 
-#textControls {
+.webgl-gui {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.video-texture-section {
+.stats-wrapper {
   position: relative;
 }
 
-#videoTextureStats {
-  position: relative;
-}
-
-#videoTextureStats > div {
+.stats-wrapper > div {
   position: absolute !important;
 }
 
