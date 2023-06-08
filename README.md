@@ -34,4 +34,6 @@
 
 - [wjceo 博客 `three.js` 实战](https://www.wjceo.com/blog/threejs/)
 
+- [Three.js and TypeScript Tutorials](https://sbcode.net/threejs/)
+
 - [GUI 文档](https://lil-gui.georgealways.com/)
