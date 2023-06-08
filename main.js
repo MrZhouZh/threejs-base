@@ -4,6 +4,7 @@ import createText from './scripts/createText.js'
 import loadingModels from './scripts/loadingModels.js'
 import videoTexture from './scripts/videoTexture.js'
 import loadingFBXModels from './scripts/loadingFbxModels.js'
+import generalThreejsApp from './scripts/general-threejs.app.js'
 import './style.css'
 
 createScene()
@@ -12,3 +13,4 @@ createText()
 loadingModels()
 videoTexture()
 loadingFBXModels()
+generalThreejsApp()
