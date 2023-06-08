@@ -12,11 +12,19 @@
 
 ## 查看源码
 
+- [良好的结构书写](./scripts/general-threejs.app.js)
+
 - [创建场景](./scripts/scene.js)
 
 - [画线](./scripts/line.js)
 
 - [创建文字](./scripts/createText.js)
+
+- [加载3D模型](./scripts/loadingModels.js)
+
+- [VideoTexture实现视频Video更新纹理](./scripts/videoTexture.js)
+
+- [FBX格式骨骼绑定模型](./scripts/loadingFbxModels.js)
 
 ## 参考资料
 
