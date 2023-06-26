@@ -37,3 +37,5 @@
 - [Three.js and TypeScript Tutorials](https://sbcode.net/threejs/)
 
 - [GUI 文档](https://lil-gui.georgealways.com/)
+
+- [探索three.js 开源书籍(threejs实战手册)](https://discoverthreejs.com/)
