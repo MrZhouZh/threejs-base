@@ -5,6 +5,7 @@ import loadingModels from './scripts/loadingModels.js'
 import videoTexture from './scripts/videoTexture.js'
 import loadingFBXModels from './scripts/loadingFbxModels.js'
 import generalThreejsApp from './scripts/general-threejs.app.js'
+import generalWorldClass from './scripts/World'
 import './style.css'
 
 createScene()
@@ -14,3 +15,4 @@ loadingModels()
 videoTexture()
 loadingFBXModels()
 generalThreejsApp()
+generalWorldClass()

@@ -38,6 +38,8 @@ h3 {
 
 .webgl-section {
   position: relative;
+  width: 500px;
+  height: 500px;
 }
 
 .webgl-gui {
