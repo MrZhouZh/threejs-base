@@ -103,7 +103,6 @@ function createText() {
     )
     plane.position.x = -Math.PI / 2
     plane.position.y = 100
-    console.log('plane-> ', plane);
     scene.add(plane)
 
     renderer = new THREE.WebGLRenderer({ antialias: true })

@@ -66,7 +66,6 @@ function generalThreejsApp() {
         })
       )
       line.position.z = (i * 50) - 500
-      console.log(line, '-- line 1');
       scene.add(line)
 
       line = new THREE.Line(
@@ -78,7 +77,6 @@ function generalThreejsApp() {
       )
       line.position.x = (i * 50) - 500
       line.rotation.y = 90 * Math.PI / 180
-      console.log(line, '-- line 2');
       scene.add(line)
     }
 
