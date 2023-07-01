@@ -6,6 +6,7 @@ function createScene() {
     container = document.getElementById('scene')
   
   const scene = new THREE.Scene()
+  scene.background = new THREE.Color(0x8fbcd4)
   const camera = new THREE.PerspectiveCamera(
     75,
     W / H,

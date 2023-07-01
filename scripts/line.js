@@ -6,6 +6,7 @@ function drawLine() {
     container = document.getElementById('line')
   
   const scene = new THREE.Scene()
+  scene.background = new THREE.Color(0x8fbcd4)
   const camera = new THREE.PerspectiveCamera(
     45,
     W / H,
@@ -15,7 +16,7 @@ function drawLine() {
   
   camera.position.set(0, 0, 100)
   camera.lookAt(0, 0, 0)
-  const material = new THREE.LineBasicMaterial({ color: '#00ff00' })
+  const material = new THREE.LineBasicMaterial({ color: '#f00' })
   const points = []
   points.push(new THREE.Vector3(-10, 0, 0))
   points.push(new THREE.Vector3(0, 10, 0))
