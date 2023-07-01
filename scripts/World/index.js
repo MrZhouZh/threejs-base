@@ -1,11 +1,14 @@
-import { World } from './World'
+import { World } from './world-lib'
 
 function generalWorldClass() {
   const container = document.getElementById('world')
 
   const world = new World(container)
 
-  world.render()
+  // render a frame
+  // world.render()
+  // animation
+  world.start()
 }
 
 export default generalWorldClass
