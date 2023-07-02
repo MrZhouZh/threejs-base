@@ -77,8 +77,12 @@ function videoTexture() {
     texture.minFilter = THREE.LinearFilter
 
     material = new THREE.MeshBasicMaterial({ map: texture, })
+    const mesh = new THREE.Mesh(geometry, material)
+    mesh.rotation.x = 0.5
+    mesh.rotation.y = -0.1
+    // mesh.rotation.set(-0.5, 0.5, 0.5)
 
-    scene.add(new THREE.Mesh(geometry, material))
+    scene.add(mesh)
   }
 
   function initStats() {
