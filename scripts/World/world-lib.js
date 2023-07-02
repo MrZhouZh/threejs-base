@@ -23,11 +23,12 @@ class World {
     container.append(renderer.domElement)
 
     const cube = createCube()
-    const { ambientLight, mainLight } = createLights()
+    const { ambientLight, hemispherLight, mainLight } = createLights()
     // disabled mesh rotation
     // loop.updatables.push(cube)
     loop.updatables.push(controls)
-    scene.add(ambientLight, mainLight, cube)
+    // scene.add(ambientLight, mainLight, cube)
+    scene.add(hemispherLight, cube)
     
     this.start()
 
