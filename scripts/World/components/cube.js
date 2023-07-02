@@ -3,6 +3,7 @@ import {
   MathUtils,
   Mesh,
   MeshBasicMaterial,
+  MeshStandardMaterial,
   // MeshStandardMaterial,
   TextureLoader,
 } from 'three'
@@ -13,14 +14,14 @@ function createMaterial() {
   const texture = textureLoader.load(
     '/textures/uv-test-bw.png'
   )
-
-  texture.anisotropy = 16
+    texture.anisotropy = 16
 
   console.log('texture...', texture);
   // create a default (white) Basic material
   // const material = new MeshBasicMaterial()
   // create a "standard" material
-  const material = new MeshBasicMaterial({
+  const material = new MeshStandardMaterial({
+    color: 'white',
     map: texture,
   })
   return material
@@ -34,7 +35,7 @@ function createCube() {
   // create a Mesh containing the geometry and material
   const cube = new Mesh(geometry, material)
 
-  cube.rotation.set(-0.5, -0.1, 0.8)
+  // cube.rotation.set(-0.5, -0.1, 0.8)
 
   const radiansPerSecond = MathUtils.degToRad(30)
 

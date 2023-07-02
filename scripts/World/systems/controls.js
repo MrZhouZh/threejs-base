@@ -11,9 +11,9 @@ function createControls(camera, canvas) {
   // 缩放
   // controls.enableZoom = false
   // 自动旋转
-  controls.autoRotate = true
+  // controls.autoRotate = true
   // 自动旋转速度. 默认2.0, 相当于在60fps时旋转一周需要30s
-  controls.autoRotateSpeed = 2 ** 6
+  // controls.autoRotateSpeed = 2 ** 6
   // 水平旋转(方位角)
   // controls.minAzimuthAngle = -Infinity
   // controls.maxAzimuthAngle = Infinity
