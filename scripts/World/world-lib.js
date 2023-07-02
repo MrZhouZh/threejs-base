@@ -29,6 +29,10 @@ class World {
     loop.updatables.push(controls)
     scene.add(cube, light)
 
+    controls.addEventListener('change', () => {
+      this.render()
+    })
+
     const resizer = new Resizer(container, camera, renderer)
     resizer.onResize = () => {
       this.render()

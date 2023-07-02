@@ -6,9 +6,9 @@ function generalWorldClass() {
   const world = new World(container)
 
   // render a frame
-  // world.render()
+  world.render()
   // animation
-  world.start()
+  // world.start()
 }
 
 export default generalWorldClass
