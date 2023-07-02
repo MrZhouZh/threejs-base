@@ -28,6 +28,8 @@ class World {
     // loop.updatables.push(cube)
     loop.updatables.push(controls)
     scene.add(cube, light)
+    
+    this.start()
 
     controls.addEventListener('change', () => {
       this.render()
