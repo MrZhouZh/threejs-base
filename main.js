@@ -6,6 +6,7 @@ import videoTexture from './scripts/videoTexture.js'
 import loadingFBXModels from './scripts/loadingFbxModels.js'
 import generalThreejsApp from './scripts/general-threejs.app.js'
 import generalWorldClass from './scripts/World'
+import timeMachine from './scripts/time-machine.js'
 import './style.css'
 
 createScene()
@@ -16,3 +17,4 @@ videoTexture()
 loadingFBXModels()
 generalThreejsApp()
 generalWorldClass()
+timeMachine()
