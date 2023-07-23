@@ -7,6 +7,7 @@ import loadingFBXModels from './scripts/loadingFbxModels.js'
 import generalThreejsApp from './scripts/general-threejs.app.js'
 import generalWorldClass from './scripts/World'
 import timeMachine from './scripts/time-machine.js'
+import panorama from './scripts/panorama.js'
 import './style.css'
 
 createScene()
@@ -18,3 +19,4 @@ loadingFBXModels()
 generalThreejsApp()
 generalWorldClass()
 timeMachine()
+panorama()
