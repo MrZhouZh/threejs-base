@@ -2,6 +2,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js'
 import { RGBELoader } from 'three/examples/jsm/loaders/RGBELoader.js'
+import { on } from './utils'
 // import { on } from './utils'
 
 async function loadingModels() {
@@ -30,7 +31,7 @@ async function loadingModels() {
   container.appendChild(renderer.domElement)
 
   controls = new OrbitControls(camera, renderer.domElement)
-  controls.addEventListener('change', render )
+  on(controls, 'change', render)
   controls.target.set(0, 0.01, 0.1)
   controls.maxDistance = 2
   controls.minDistance = 0.4

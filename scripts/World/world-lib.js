@@ -7,6 +7,7 @@ import { createRenderer } from './systems/renderer'
 import { createControls } from './systems/controls'
 import { Loop } from './systems/Loop'
 import { Resizer } from './systems/Resizer'
+import { on } from '../utils'
 
 let camera,
   renderer,
@@ -32,9 +33,10 @@ class World {
     
     this.start()
 
-    controls.addEventListener('change', () => {
-      this.render()
-    })
+    // controls.addEventListener('change', () => {
+    //   this.render()
+    // })
+    on(controls, 'change', () => this.render())
 
     const resizer = new Resizer(container, camera, renderer)
     resizer.onResize = () => {

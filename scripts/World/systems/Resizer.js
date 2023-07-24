@@ -1,3 +1,5 @@
+import { on } from "../../utils";
+
 // constants
 const width = 500
 const height = 500
@@ -18,7 +20,13 @@ class Resizer {
   constructor(container, camera, renderer) {
     setSize(container, camera, renderer)
     
-    window.addEventListener('resize', () => {
+    // window.addEventListener('resize', () => {
+    //   setSize(container, camera, renderer)
+    //   // perform  any custom actions
+    //   this.onResize()
+    // })
+
+    on(window, 'resize', () => {
       setSize(container, camera, renderer)
       // perform  any custom actions
       this.onResize()
