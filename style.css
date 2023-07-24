@@ -74,6 +74,72 @@ a:hover {
   color: #888;
 }
 
+.periodictable-container {
+  background-color: #000;
+}
+
+.periodictable-menu {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.element {
+  width: 120px;
+  height: 160px;
+  box-shadow: 0 0 12px rgba(0, 255, 255, .5);
+  border: 1px solid rgba(127, 255, 255, 0.25);
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  line-height: normal;
+  cursor: default;
+}
+
+.element:hover {
+  box-shadow: 0 0 12px rgba(0, 255, 255, .75);
+  border: 1px solid rgba(127, 255, 255, .75);
+}
+
+.element .symbol {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  font-size: 60px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, .75);
+  text-shadow: 0 0 10px rgba(0, 255, 255, .95);
+}
+
+.element .details {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  color: rgba(127, 255, 255, .75);
+}
+
+.periodictable-menu button {
+  border-radius: 0;
+  color: rgba(127, 255, 255, .75);
+  background: transparent;
+  outline: 1px solid rgba(127, 255, 255, .75);
+  border: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.periodictable-menu button:hover {
+  background-color: rgba(0, 255, 255, .5);
+}
+
+.periodictable-menu button:active {
+  color: #000;
+  background-color: rgba(0, 255, 255, .75);
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;

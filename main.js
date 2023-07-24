@@ -8,6 +8,7 @@ import generalThreejsApp from './scripts/general-threejs.app.js'
 import generalWorldClass from './scripts/World'
 import timeMachine from './scripts/time-machine.js'
 import panorama from './scripts/panorama.js'
+import periodictable from './scripts/periodictable.js'
 import './style.css'
 
 createScene()
@@ -20,3 +21,4 @@ generalThreejsApp()
 generalWorldClass()
 timeMachine()
 panorama()
+periodictable()
