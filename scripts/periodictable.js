@@ -195,9 +195,17 @@ function periodictable() {
       objects.push(objectCSS)
   
       const object = new Object3D()
+      // 一行 18 个, 基于中心坐标(0,0), 范围取值(-1190,1190)
+      // 140 为 120 + 20(边距)
+      // 1330 为常量, 假设 n = 18, 18 * 140 - 1190 = 1330 
+      // x = n * 140 - 1330
       object.position.x = (table[i + 3] * 140) - 1330
+      // 一列为 10 个, 同理, 取值范围(-810, 810)
+      // 160 + 20(边距)
+      // 假设 n = 18, 10 * 180 - 810 = 990
+      // y = n * 180 + 990
       object.position.y = -(table[i + 4] * 180) + 990
-  
+
       targets.table.push(object)
     }
 
