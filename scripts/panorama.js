@@ -38,8 +38,8 @@ function panorama() {
 
   function initModel() {
     let urls = [
-      '/textures/home.left.jpg',
       '/textures/home.right.jpg',
+      '/textures/home.left.jpg',
       '/textures/home.top.jpg',
       '/textures/home.bottom.jpg',
       '/textures/home.front.jpg',
